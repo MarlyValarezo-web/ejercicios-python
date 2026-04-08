@@ -1,0 +1,9 @@
+"""primer_nombre, apellido, pais, edad, esta_casado = 'Marly', 'Valarezo', 'Ecuador', 16, False
+
+print(primer_nombre, apellido, pais, edad, esta_casado)
+print('Primer nombre: ', primer_nombre)
+print('Apellido: ', apellido)
+print('País: ', pais)
+print('Edad: ', edad)
+print('Casado: ', esta_casado)"""
+
