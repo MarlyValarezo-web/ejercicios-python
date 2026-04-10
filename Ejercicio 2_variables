@@ -7,3 +7,36 @@ print('País: ', pais)
 print('Edad: ', edad)
 print('Casado: ', esta_casado)"""
 
+"""
+Nombre: [Tu Nombre]
+Fecha: 10/04/2026
+Título: Ejercicio de comentarios multi-línea
+"""
+nombre = "Juan"
+apellido = "Pérez"
+nombreCompleto = "Juan Pérez"
+pais = "España"
+ciudad = "Madrid"
+edad = 30
+anio = 2026
+estaCasado = False
+esVerdadero = True
+luzEncendida = True
+# Declaración de varias variables en una sola línea
+x, y, z = 1, 2, 3
+
+#Ejercicios: Nivel 2
+
+# Comprobar el tipo de dato de todas las variables
+print(type(nombre))
+print(type(apellido))
+print(type(nombreCompleto))
+print(type(pais))
+print(type(ciudad))
+print(type(edad))
+print(type(anio))
+print(type(estaCasado))
+print(type(esVerdadero))
+print(type(luzEncendida))
+
+print('Longitud de nombre:', len(nombre))
