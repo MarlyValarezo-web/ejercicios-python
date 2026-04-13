@@ -38,5 +38,74 @@ print(type(anio))
 print(type(estaCasado))
 print(type(esVerdadero))
 print(type(luzEncendida))
-
+# 2. Usando la función integrada len(), encuentra la longitud de tu variable nombre
 print('Longitud de nombre:', len(nombre))
+
+# 3. Compara la longitud de nombre y apellido
+longitud_nombre = len(nombre)
+longitud_apellido = len(apellido)
+print('Longitud de nombre:', longitud_nombre)
+print('Longitud de apellido:', longitud_apellido)
+print('¿Nombre más largo que apellido?', longitud_nombre > longitud_apellido)
+
+# 4. Declara 5 como numeroUno y 4 como numeroDos
+numeroUno = 5
+numeroDos = 4
+
+# 5. Suma numeroUno y numeroDos y asigna el resultado a total
+total = numeroUno + numeroDos
+print('Total:', total)
+
+# 6. Resta numeroDos de numeroUno y asigna el resultado a diferencia
+diferencia = numeroUno - numeroDos
+print('Diferencia:', diferencia)
+
+# 7. Multiplica numeroUno por numeroDos y asigna el resultado a producto
+producto = numeroUno * numeroDos
+print('Producto:', producto)
+
+# 8. Divide numeroUno por numeroDos y asigna el resultado a division
+division = numeroUno / numeroDos
+print('División:', division)
+
+# 9. Usa el operador módulo para encontrar el residuo de dividir numeroDos para numeroUno
+residuo = numeroDos % numeroUno
+print('Residuo:', residuo)
+
+# 10. Calcula numeroUno elevado a la potencia de numeroDos y asigna el resultado a potencia
+potencia = numeroUno ** numeroDos
+print('Potencia:', potencia)
+
+# 11. Encuentra la división entera de numeroUno para numeroDos y asigna el resultado a divisionEntera
+divisionEntera = numeroUno // numeroDos
+print('División entera:', divisionEntera)
+
+# 12. El radio de un círculo es de 30 metros.
+radio = 30
+
+# 13. Calcula el área de un círculo y asigna el valor a areaCirculo
+import math
+areaCirculo = math.pi * radio ** 2
+print('Área círculo:', areaCirculo)
+
+# 14. Calcula la circunferencia de un círculo y asigna el valor a circunferenciaCirculo
+circunferenciaCirculo = 2 * math.pi * radio
+print('Circunferencia círculo:', circunferenciaCirculo)
+
+# 15. Toma el valor del radio como entrada del usuario y calcula el área
+radio_usuario = float(input('Ingresa el radio del círculo: '))
+area_usuario = math.pi * radio_usuario ** 2
+print('Área con radio ingresado:', area_usuario)
+
+# 16. Utiliza input() para obtener nombre, apellido, país y edad de un usuario
+nombre_usuario = input('Ingresa tu nombre: ')
+apellido_usuario = input('Ingresa tu apellido: ')
+pais_usuario = input('Ingresa tu país: ')
+edad_usuario = input('Ingresa tu edad: ')
+print('Nombre:', nombre_usuario)
+print('Apellido:', apellido_usuario)
+print('País:', pais_usuario)
+print('Edad:', edad_usuario)
+
+# 17. Ejecuta help('keywords') en la consola de Python o en tu archivo para comprobar las palabras reservadas de Python
+help('keywords')
