@@ -12,6 +12,7 @@ Nombre: [Tu Nombre]
 Fecha: 10/04/2026
 Título: Ejercicio de comentarios multi-línea
 """
+# %%
 nombre = "Juan"
 apellido = "Pérez"
 nombreCompleto = "Juan Pérez"
@@ -22,6 +23,7 @@ anio = 2026
 estaCasado = False
 esVerdadero = True
 luzEncendida = True
+# %%
 # Declaración de varias variables en una sola línea
 x, y, z = 1, 2, 3
 
@@ -109,3 +111,5 @@ print('Edad:', edad_usuario)
 
 # 17. Ejecuta help('keywords') en la consola de Python o en tu archivo para comprobar las palabras reservadas de Python
 help('keywords')
+
+# %%
