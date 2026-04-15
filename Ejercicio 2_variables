@@ -108,6 +108,7 @@ print('Nombre:', nombre_usuario)
 print('Apellido:', apellido_usuario)
 print('País:', pais_usuario)
 print('Edad:', edad_usuario)
+print(f"Nombre: {nombre_usuario} Apellido: {apellido_usuario} País: {pais_usuario} Edad: {edad_usuario}")
 
 # 17. Ejecuta help('keywords') en la consola de Python o en tu archivo para comprobar las palabras reservadas de Python
 help('keywords')
