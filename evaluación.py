@@ -47,3 +47,22 @@ print(sys.version)
 e) Escribe una instrucción que permita consultar las palabras reservadas de Python:
 import keyword
 print(keyword.kwlist)"""
+
+# ===== PARTE B ===== 
+# Código corregido 
+ancho = float(input("Ingrese el ancho del terreno: "))
+largo = float(input("Ingrese el largo del terreno: "))
+precio = float(input("Ingrese el precio por metro cuadrado: "))
+area = ancho * largo
+costo = area * precio
+print("Área total: " + str(area))
+print("Costo estimado: " + str(costo))
+
+"""a) ¿Cuáles eran los errores principales?:
+Los errores principales eran:
+- No se estaba convirtiendo la entrada del usuario a un tipo de dato numérico, lo que causaba errores al intentar realizar cálculos.
+- No se estaban utilizando variables para almacenar los valores ingresados por el usuario, lo que dificultaba la realización de cálculos posteriores.
+b) ¿Por qué tu corrección sí permite obtener resultados válidos?:
+Mi corrección permite obtener resultados válidos porque:
+- He convertido las entradas del usuario a tipo float para asegurarme de que se puedan realizar cálculos matemáticos correctamente.
+- He utilizado variables para almacenar los valores ingresados por el usuario, lo que facilita la realización de cálculos posteriores y la presentación de resultados."""
