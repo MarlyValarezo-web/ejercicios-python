@@ -35,6 +35,7 @@ print(type(len(nombre)) )
 <class 'type'>
 <class 'int'>
 c) Explica qué hace len(nombre): este código muestra la cantidad de caracteres que tiene la variable nombre, en este caso, el resultado sería 5, ya que "Lucía" tiene 5 caracteres."""
+
 # Respuesta 2:
 """a)  ¿Qué diferencia hay entre print() e input()?: print() se utiliza para mostrar información en la pantalla, mientras que input() se utiliza para recibir
 información del usuario a través del teclado.
@@ -50,6 +51,7 @@ print(keyword.kwlist)"""
 
 # ===== PARTE B ===== 
 # Código corregido 
+# Respuesta 3:
 ancho = float(input("Ingrese el ancho del terreno: "))
 largo = float(input("Ingrese el largo del terreno: "))
 precio = float(input("Ingrese el precio por metro cuadrado: "))
@@ -66,3 +68,29 @@ b) ¿Por qué tu corrección sí permite obtener resultados válidos?:
 Mi corrección permite obtener resultados válidos porque:
 - He convertido las entradas del usuario a tipo float para asegurarme de que se puedan realizar cálculos matemáticos correctamente.
 - He utilizado variables para almacenar los valores ingresados por el usuario, lo que facilita la realización de cálculos posteriores y la presentación de resultados."""
+
+#Respuesta 4:
+frase = "Tecnología para todos"
+print(frase.upper())
+print(len(frase))
+print("Python" in frase)
+print(frase.replace("Tecnología", "Programación"))
+print(frase.split())
+
+# ===== PARTE C ===== 
+# Programa integrador 
+# Respuesta 5:
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+pais = input("Ingrese su país: ")
+ancho_pared = float(input("Ingrese el ancho de la pared en metros: "))
+alto_pared = float(input("Ingrese el alto de la pared en metros: "))
+precio_metro_cuadrado = float(input("Ingrese el precio por metro cuadrado: "))
+area_pared = ancho_pared * alto_pared
+costo_estimado = area_pared * precio_metro_cuadrado
+nombre_completo = nombre + " " + apellido
+print(f"Reporte Final:\nNombre Completo: {nombre_completo}\nPaís: {pais}\nÁrea Calculada: {area_pared} metros cuadrados\nCosto Total: ${costo_estimado}")
+print("Nombre completo en mayúsculas:", nombre_completo.upper())
+print("Longitud de nombre completo:", len(nombre_completo))
+print("¿La letra 'a' está presente en el nombre completo?", "a" in nombre_completo)
+print("¿El costo total es mayor que 100?", costo_estimado > 100) 
