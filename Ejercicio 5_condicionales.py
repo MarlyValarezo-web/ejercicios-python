@@ -73,5 +73,3 @@ if fruta in fruits:
 else:
     fruits.append(fruta)
     print(f"Fruta agregada. Lista actual: {fruits}")
-
-
