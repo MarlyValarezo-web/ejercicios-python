@@ -1,4 +1,3 @@
-#Ciclo While
 #Ejercicio 1
 # Solicitar número
 n = int(input("Ingrese un número: "))
@@ -46,6 +45,3 @@ while contador <= limiteSuperior:
         continue
     print(contador)
     contador += 1 
-
-
-#Ciclo For
