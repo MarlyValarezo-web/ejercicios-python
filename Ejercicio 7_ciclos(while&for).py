@@ -1,4 +1,4 @@
-#Ejercicio 1
+"""#Ejercicio 1
 # Solicitar número
 n = int(input("Ingrese un número: "))
 # Variables de control
@@ -44,4 +44,48 @@ while contador <= limiteSuperior:
         contador += 1
         continue
     print(contador)
-    contador += 1 
+    contador += 1"""
+
+"""#Ciclo For
+numbers = [0, 1, 2, 3, 4, 5]
+for numbers in numbers:
+    print (numbers)
+
+notas = [8, 9, 10, 7, 6]
+suma = 0
+for nota in notas:
+    suma += nota
+promedio = suma / len(notas)
+print(f"El promedio de las notas es: {promedio}")
+
+language = "Python"
+for letter in language:
+    print(letter)
+
+palabra = input("Ingrese una palabra: ").lower()
+vocales = 0
+for letra in palabra:
+    if letra == 'a' or letra == 'e' or letra == 'i' or letra == 'o' or letra == 'u':
+        vocales += 1
+print(f"Las vocales en la palabra son: {vocales}")
+consonantes = len(palabra) - vocales
+print(f"Las consonantes en la palabra son: {consonantes}")
+total = len(palabra)
+print(f"La cantidad total de letras es: {total}")
+
+it_conpanies = {"Facebook","Google","Amazon", "Apple", "Facebook" }
+for company in it_conpanies:
+    print(company)
+
+asistentes = {"Ana", "Luis", "Maria", "Ana", "Carlos", "Luis", "Sofia"}
+for estudiante in asistentes:
+    print("Generar certificado para:", estudiante)"""
+
+numbers = [0, 16, 25, 3, 40, 5]
+num = int(input("Ingrese un numero:"))
+for number in numbers:
+    if number == num:
+        print("Ganaste")
+        break
+else:
+    print("Perdiste")
