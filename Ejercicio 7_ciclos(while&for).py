@@ -81,11 +81,16 @@ asistentes = {"Ana", "Luis", "Maria", "Ana", "Carlos", "Luis", "Sofia"}
 for estudiante in asistentes:
     print("Generar certificado para:", estudiante)"""
 
-numbers = [0, 16, 25, 3, 40, 5]
+"""numbers = [0, 16, 25, 3, 40, 5]
 num = int(input("Ingrese un numero:"))
 for number in numbers:
     if number == num:
         print("Ganaste")
         break
 else:
-    print("Perdiste")
+    print("Perdiste")"""
+
+#For in range
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)
