@@ -14,6 +14,7 @@ print("Suma total de las notas:", suma)
 print("Promedio del curso:", promedio)
 print("Estudiantes que aprobaron:", aprobados)
 print("Estudiantes que reprobaron:", reprobados)
+
 # EJERCICIOS STRING
 contrasena = "Python2026"
 letras = 0
@@ -29,6 +30,7 @@ cont_o += 1
 print("Letras en la contraseña:", letras)
 print("Números en la contraseña:", numeros)
 print("Veces que aparece 'o':", cont_o)
+
 # EJERCICIOS CON SET
 productos = {"teclado", "mouse", "monitor", "mouse", "impresora"}
 unicos = 0
@@ -42,7 +44,8 @@ if contador_letras > 6:
 mas_6_letras += 1
 print("Productos únicos:", unicos)
 print("Productos con más de 6 letras:", mas_6_letras)
-# EJERICIOCS CON BREAK
+
+# EJERCICIO CON BREAK
 correo = input("Ingresa tu correo electrónico: ")
 usuario = ""
 for char in correo:
@@ -50,6 +53,7 @@ if char == '@':
 break
 usuario += char
 print("Nombre de usuario:", usuario)
+
 # EJERICIO CON CONTINUE
 telefono = input("Ingresa un número de teléfono: ")
 telefono_limpio = ""

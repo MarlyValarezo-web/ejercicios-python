@@ -91,6 +91,10 @@ else:
     print("Perdiste")"""
 
 #For in range
-for i in range(1, 4):
-    for j in range(1, 4):
-        print(i, j)
+
+suma = 0
+notas = int(input("Cuantas calificaciones desea ingresar: "))
+for n in range(notas):
+    nota = float(input(f"Ingresa la nota {n+1}: "))
+    suma+=nota
+print(f"El promedio de las notas es: {suma/notas}")
