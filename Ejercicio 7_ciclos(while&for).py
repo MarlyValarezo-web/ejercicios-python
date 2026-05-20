@@ -98,3 +98,12 @@ for n in range(notas):
     nota = float(input(f"Ingresa la nota {n+1}: "))
     suma+=nota
 print(f"El promedio de las notas es: {suma/notas}")
+
+n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+notas = int(input("Ingrese un número: (1-10)"))
+for i in n:
+    while notas == i:
+        print(f"El número {notas} se encuentra en la lista")
+        break
+else:
+    print(f"El número {notas} no se encuentra en la lista")
