@@ -90,8 +90,8 @@ for number in numbers:
 else:
     print("Perdiste")"""
 
-#For in range
-
+"""#For in range
+#1)
 suma = 0
 notas = int(input("Cuantas calificaciones desea ingresar: "))
 for n in range(notas):
@@ -106,4 +106,58 @@ for i in n:
         print(f"El número {notas} se encuentra en la lista")
         break
 else:
-    print(f"El número {notas} no se encuentra en la lista")
+    print(f"El número {notas} no se encuentra en la lista")"""
+
+"""#2)
+num = int(input("Ingrese un número: "))
+lista = int(input("Ingrese desde que número desea ver la tabla de multiplicar : "))
+lis = int(input("Ingrese hasta que número desea ver la tabla de multiplicar : "))
+for i in range(lista, lis+1):
+    print(f"{i} x {num} = {num*i}")"""
+
+"""#3)
+# Lista de notas del estudiante
+# LA PRIMERA Y ULTIMA NOTA ES DE PRUEBA DIAGNOSTICA notas = [5, 8, 9, 7, 10]
+notas = []
+num_notas = int(input("Ingrese el número de notas del estudiante: "))
+for i in range(num_notas):
+    nota = float(input(f"Ingrese la nota {i+1}: "))
+    notas.append(nota)
+promedio = sum(notas) / len(notas)
+print(f"El promedio de las notas del estudiante es: {promedio}")"""
+
+"""#4)
+#Solo tiene que mostrar los números pares entre el rango que el usuario ingrese
+num = int(input("Ingrese un número: "))
+lista = int(input("Ingrese desde que número desea ver la tabla de multiplicar : "))
+lis = int(input("Ingrese hasta que número desea ver la tabla de multiplicar : "))
+for i in range(lista, lis+1):
+    if i % 2 == 0:
+        print(f"{i} x {num} = {num*i}")"""
+
+"""#5)
+# Lista de estudiantes en orden
+estudiantes = ["Ana", "Luis", "María", "Carlos", "Sofía", "Mateo"]
+# Formar parejas tomando dos estudiantes a la vez
+for i in range(0, len(estudiantes), 2):
+    print(f"Pareja {i//2+1}: {estudiantes[i]} y {estudiantes[i+1]}")"""
+
+#6)
+#Un jugador empieza con 3 vidas
+#Cada vez que el jugador pierde, se le resta una vida
+for vidas in range(3, 0, -1):
+    print(f"Vidas restantes: {vidas}")
+        print("Has perdido una vida.")
+    
+#Ciclo For anidado
+#1)
+# Asignar estudiantes a los puestos de un laboratorio
+# El laboratorio tiene 3 filas y 4 computadoras por cada fila
+
+for fila in range(1, 4):
+    for computadora in range(1, 5):
+        nombre = input('Ingrese el nombre del estudiante: ')
+        
+        print(nombre, 'asignado a Fila', fila,
+        '- Computadora', computadora)
+    print('Fin de la fila', fila)
