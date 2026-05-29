@@ -142,7 +142,7 @@ estudiantes = ["Ana", "Luis", "María", "Carlos", "Sofía", "Mateo"]
 for i in range(0, len(estudiantes), 2):
     print(f"Pareja {i//2+1}: {estudiantes[i]} y {estudiantes[i+1]}")"""
 
-#6)
+"""#6)
 #Un jugador empieza con 3 vidas
 #Cada vez que el jugador pierde, se le resta una vida
 for vidas in range(3, 0, -1):
@@ -160,4 +160,4 @@ for fila in range(1, 4):
         
         print(nombre, 'asignado a Fila', fila,
         '- Computadora', computadora)
-    print('Fin de la fila', fila)
+    print('Fin de la fila', fila)"""
