@@ -63,57 +63,14 @@ def generar_nombre_completo():
 print(obtener_mensaje())
 print(generar_nombre_completo())"""
 
-
-
-"""def obtener_mensaje():
-    mensaje =(input("Que mensaje desea poner: "))
+def obtener_mensaje():
     return mensaje
 
 def generar_nombre_completo():
-    nombre = (input("Ingrese su nombre: "))
-    apellido = (input("Ingrese su apellido: "))
     nombre_completo = nombre + espacio + apellido
     return nombre_completo
+mensaje =(input("Que mensaje desea poner"))
+nombre = (input("Ingrese su nombre"))
+apellido = (input("Ingrese su apellido"))
 
-print(f"{obtener_mensaje()}, {generar_nombre_completo()}")"""
-
-
-# genere una calculadora con las 4 operaciones basicas( suma, resta, multiplicació, divisió ) mediante un procedimiento con parametros para cada operacion el usuario debe ingresar 2 numeros por teclado y seleccionar la operación
-def suma(num1, num2):
-    return num1 + num2
-
-def resta(num1, num2):
-    return num1 - num2
-
-def multiplicacion(num1, num2):
-    return num1 * num2
-
-def division(num1, num2):
-    if num2 != 0:
-        return num1 / num2
-    else:
-        return "Error: División por cero no permitida."
-def main():
-    num1 = float(input("Ingrese el primer número: "))
-    num2 = float(input("Ingrese el segundo número: "))
-    print("Seleccione la operación:")
-    print("1. Suma")
-    print("2. Resta")
-    print("3. Multiplicación")
-    print("4. División")
-    operacion = input("Ingrese el número de la operación deseada: ")
-
-    if operacion == '1':
-        resultado = suma(num1, num2)
-        print(f"El resultado de la suma es: {resultado}")
-    elif operacion == '2':
-        resultado = resta(num1, num2)
-        print(f"El resultado de la resta es: {resultado}")
-    elif operacion == '3':
-        resultado = multiplicacion(num1, num2)
-        print(f"El resultado de la multiplicación es: {resultado}")
-    elif operacion == '4':
-        resultado = division(num1, num2)
-        print(f"El resultado de la división es: {resultado}")
-    else:
-        print("Operación no válida.")
+print(f"{obtener_mensaje()}, {generar_nombre_completo()}")
